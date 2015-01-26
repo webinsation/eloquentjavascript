@@ -6,7 +6,7 @@ for (var h=0; h < height/2; h++) {
   	// controls chars on a line
 	for (var w=0; w < width/2; w++) {
 		row1 += (white + black);
-      	row2 += (black + white);
+      		row2 += (black + white);
 	}
 	console.log(row1);
   	console.log(row2);
